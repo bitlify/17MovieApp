@@ -42,7 +42,7 @@ function showMovies(movies) {
         <img src="${IMG_PATH + img}" alt="${title}">
         <div class="movie-info">
             <h3>${title}</h3>
-            <span class="${getClassByScore()}">${score}</span>
+            <span class="${getClassByScore(score)}">${score}</span>
         </div>
         <div class="overview">
             <h3>Overview</h3>
